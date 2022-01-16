@@ -62,8 +62,6 @@ ingress:
   labels: {}
   path: /
   hosts: "demo-python-time.localhost"
-  tls:
-    secretName: "demo-python-time-tls"
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
